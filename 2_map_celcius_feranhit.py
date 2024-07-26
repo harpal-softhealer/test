@@ -4,5 +4,4 @@ feranhit = lambda celc : celc * (9/5) + 32
 
 feranhit_temperatures = list(map(feranhit,celsius_temperatures))
 
-
 print(feranhit_temperatures)
